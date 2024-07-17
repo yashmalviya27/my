@@ -1,0 +1,23 @@
+.container {
+    position: relative; /* Ensure the container is positioned */
+    width: 104px; /* Adjust width as per your SVG dimensions */
+    height: 114px; /* Adjust height as per your SVG dimensions */
+  }
+  
+  .svg-container {
+    position: absolute; /* Position the SVG container relative to its parent */
+    top: 0;
+    left: 0;
+  }
+  
+  .overlay-image {
+    position: absolute; /* Position the image relative to its container */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensure the image is on top of the SVG */
+    /* Add any additional styles you need */
+  }
+  .text-description {
+    white-space: pre-line;
+  }
+  
